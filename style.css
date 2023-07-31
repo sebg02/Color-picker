@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Tahoma, sans-serif;
+  display: grid;
+  height: 100vh;
+}
+
+.color-panel {
+  place-self: center;
+  background-color: #fff;
+  min-width: 400px;
+  padding: 1.5rem;
+  border: black 2px solid;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.color-slider__text {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin: 3rem 0 0.5rem;
+}
+
+.color-slider__picker {
+  display: block;
+  width: 100%;
+}
+
+.color-slider__number {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0.3rem 0 1rem;
+}

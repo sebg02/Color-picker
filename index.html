@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Color picker</title>
+  </head>
+  <body>
+    <main class="color-panel">
+      <div class="color-slider">
+        <p class="color-slider__text">red</p>
+        <input type="range" class="color-slider__picker" id="r" min="0" max="255" value="255" />
+        <p class="color-slider__number" id="rNumber">255</p>
+      </div>
+
+      <div class="color-slider">
+        <p class="color-slider__text">green</p>
+        <input type="range" class="color-slider__picker" id="g" min="0" max="255" value="255" />
+        <p class="color-slider__number" id="gNumber">255</p>
+      </div>
+
+      <div class="color-slider">
+        <p class="color-slider__text">blue</p>
+        <input type="range" class="color-slider__picker" id="b" min="0" max="255" value="255" />
+        <p class="color-slider__number" id="bNumber">255</p>
+      </div>
+    </main>
+
+    <script src="./main.js "></script>
+  </body>
+</html>
